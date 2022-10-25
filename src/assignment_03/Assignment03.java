@@ -2,7 +2,7 @@ package assignment_03;
 
 public class Assignment03 {
     private final String author = "Agus Ardiansyah Nh";
-    String id = "L200214197";
+    String id = "L200214197"; // default access modifier
     protected String address = "Solo";
     public String phone = "081234567890";
 }
