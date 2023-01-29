@@ -26,25 +26,21 @@ public class Perpustakaan {
         buku4.pubYear = 2017;
         buku4.stock = 5;
 
-//        tableHeader("Test", "Test", "Test", "Test");
-//        tableContent(buku1.title, buku1.author,
-//                Integer.toString(buku1.pubYear),
-//                Integer.toString(buku1.stock));
-//        tableContent(buku2.title, buku2.author,
-//                Integer.toString(buku2.pubYear),
-//                Integer.toString(buku2.stock));
-//        tableContent(buku3.title, buku3.author,
-//                Integer.toString(buku3.pubYear),
-//                Integer.toString(buku3.stock));
-
-
+        System.out.println(buku4.title.length());
+        tableHeader("Test", "Test", "Test", "Test");
+        tableContent(buku1.title, buku1.author,
+                Integer.toString(buku1.pubYear),
+                Integer.toString(buku1.stock));
+        tableContent(buku2.title, buku2.author,
+                Integer.toString(buku2.pubYear),
+                Integer.toString(buku2.stock));
+        tableContent(buku3.title, buku3.author,
+                Integer.toString(buku3.pubYear),
+                Integer.toString(buku3.stock));
 
 
     }
 
-    public static void tableColumn(String... column) {
-
-    }
 
     public static void tableHeader(String... header) {
         tableLine(header.length);
